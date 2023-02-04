@@ -4,3 +4,17 @@
   padding: 2rem;
   text-align: center;
 }
+
+.modal__button{
+  position: fixed;
+  top: 2%;
+  right: 2%;
+}
+.modal__button button{
+background: none;
+font-size: 1.5em;
+}
+.modal__button button:hover{
+  border-color: transparent;
+
+}
