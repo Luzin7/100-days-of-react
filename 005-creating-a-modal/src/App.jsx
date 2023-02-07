@@ -3,18 +3,14 @@ import Modal from "./components/modal";
 import "./App.css";
 
 function App() {
-  // using boolean to control modal opening (start FALSE)
   const [toggleModal, setToggleModal] = useState(false);
   return (
     <div className="App">
       <h1>Creating a modal!</h1>
       <p>Click below to open the modal.</p>
       <button onClick={() => setToggleModal(true)}>Open Modal</button>
-      {/* using modal and add content */}
       <Modal isOpen={toggleModal}>
         <div className="modal__button">
-          {/* content that will be inputed in children */}
-          {/* closing modal with button */}
           <button onClick={() => setToggleModal(false)}>X</button>
         </div>
         <h1>Here's the modal!</h1>
