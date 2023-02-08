@@ -1,0 +1,29 @@
+label{
+  display: block;
+}
+.form__card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column wrap;
+}
+
+.form__content{
+  background-color: var(--bg-form__color);
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column wrap;
+  min-width: 25vw;
+  height: 70vh;
+  border-radius: 15px;
+}
+
+.input input{
+  background-color: var(--input__color);
+  font-size: 1.2em;
+  padding: 7px;
+}
