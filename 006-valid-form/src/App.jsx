@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from "react";
+import "./index.css";
+import "./style/form.css";
+import "./style/header.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="app">
+      <header>
+        <div className="header__content">
+          <h1>Realidade Virtual para Viagens - RVV</h1>
+          <p>
+            Planeje suas próximas viagens de maneira inovadora, utilizando
+            tecnologia de realidade aumentada para visualizar destinos, hotéis,
+            atrações, entre outros aspectos da viagem, antes mesmo de partir!
+          </p>
+        </div>
+      </header>
+      <main>
+        <div className="form__card">
+          <form className="form__content">
+            <h2>Entre nessa viagem conosco</h2>
+            <div className="input name">
+              <label>Seu nome completo</label>
+              <input type="text" />
+            </div>
+            <div className="input email">
+              <label>Seu melhor email</label>
+              <input type="email" />
+            </div>
+            <button className="btn">Quero entrar nessa viagem!</button>
+          </form>
+        </div>
+      </main>
+      {/* <div className="bg__img"></div> */}
     </div>
-  )
+  );
 }
-
-export default App
