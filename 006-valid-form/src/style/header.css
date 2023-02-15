@@ -1,4 +1,16 @@
-.header__content{
+.header__content {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
   text-align: center;
   padding: 4em 2em;
+}
+
+.header__content h1 {
+  font-size: 3.2em;
+  margin-bottom: 0.5em;
+}
+
+.header__content p {
+  width: 40vw;
 }
