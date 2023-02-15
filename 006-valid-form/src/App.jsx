@@ -19,19 +19,24 @@ export default function App() {
       <main>
         <div className="form__card">
           <form className="form__content">
-            <h2>Entre nessa viagem conosco</h2>
+            <h2>Entre nessa viagem conosco!</h2>
+            <div className="form__inputs">
             <div className="input name">
               <label>Seu nome completo</label>
-              <input type="text" />
+              <input type="text" required/>
             </div>
             <div className="input email">
               <label>Seu melhor email</label>
-              <input type="email" />
+              <input type="email" required/>
+            </div>
             </div>
             <button className="btn">Quero entrar nessa viagem!</button>
           </form>
         </div>
       </main>
+      <footer>
+        <span>Luan Victor - 2023</span>
+      </footer>
       {/* <div className="bg__img"></div> */}
     </div>
   );
