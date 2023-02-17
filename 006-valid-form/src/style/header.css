@@ -1,3 +1,7 @@
+header{
+  height: 30vh;
+}
+
 .header__content {
   display: flex;
   flex-flow: column wrap;
