@@ -52,3 +52,16 @@
   transform: scale(1.05);
   box-shadow: 0px 4px 0px var(--input__color);
 }
+
+.error__input{
+  border-color: var(--error__color)
+}
+
+.error__text{
+  color: var(--invalid__color);
+  display: block;
+}
+
+.hidden{
+  visibility: hidden;
+}
