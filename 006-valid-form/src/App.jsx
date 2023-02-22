@@ -43,12 +43,7 @@ export default function App() {
             <div className="form__inputs">
               <div className="input name">
                 <label>Seu nome completo</label>
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  onChange={() => validateNameInput()}
-                />
+                <input type="text" name="name" required />
                 <span className="error__text hidden">
                   Nome inválido! <br></br>É necessário pelo menos 4 dígitos e no
                   máximo 16.
