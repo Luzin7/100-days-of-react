@@ -19,6 +19,10 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
+  cd 100-DAYS-OF-REACT
+```
+
+```bash
   cd nome-do-projeto
 ```
 
