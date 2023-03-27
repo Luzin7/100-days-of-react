@@ -1,0 +1,4 @@
+/node_modules
+/hangman-app
+package-lock.json
+yarn-lock.json

@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState("");
 
   useEffect(() => {
-    fetch("https://api.github.com/users/Luzin7/repos")
+    fetch("https://api.github.com/users/rafaelimaf/repos")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
