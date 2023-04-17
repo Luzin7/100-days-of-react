@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#h{
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 11s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+#a {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#n {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+#g {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+#m {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#a2 {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+}
+
+#n2 {
+  stroke-dasharray: 4042;
+  stroke-dashoffset: 4042;
+  animation: helloAnimation 7s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes helloAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
