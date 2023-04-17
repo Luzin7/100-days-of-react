@@ -1,4 +1,5 @@
 /node_modules
 /hangman-app
+/svg-test
 package-lock.json
 yarn-lock.json
