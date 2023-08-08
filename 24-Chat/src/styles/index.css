@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: getColor(color-primary);
+  border-radius: 1em;
+  border: 1px solid getColor(bg-color);
+}
+
+::-webkit-scrollbar-track {
+  background: getColor(bg-color-secondary);
+}
+
+body {
+  background: #1a1924;
+}
